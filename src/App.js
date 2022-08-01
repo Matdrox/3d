@@ -1,12 +1,16 @@
 import Spline from '@splinetool/react-spline';
+import React from 'react';
 
-function App() {
+const App = () => {
 	return (
-		<div className='bg-orange-100 h-screen'>
-			<Spline scene='https://prod.spline.design/0j-He-n7S2unukca/scene.splinecode' />
-			{/* Show Scroll Down */}
+		<div className='bg-orange-100'>
+			<div className='h-screen'>
+				<Spline scene='https://prod.spline.design/0j-He-n7S2unukca/scene.splinecode' />
+				{/* Show Scroll Down */}
+			</div>
+			<div className='h-screen'></div>
 		</div>
 	);
-}
+};
 
 export default App;
