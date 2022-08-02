@@ -6,7 +6,6 @@ const App = () => {
 		<div className='bg-orange-100'>
 			<div className='h-screen'>
 				<Spline scene='https://prod.spline.design/0j-He-n7S2unukca/scene.splinecode' />
-				{/* Show Scroll Down */}
 			</div>
 			<div className='h-screen'></div>
 		</div>
