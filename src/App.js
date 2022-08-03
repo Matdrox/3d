@@ -7,7 +7,7 @@ const App = () => {
 			<div className='h-screen'>
 				<Spline scene='https://prod.spline.design/0j-He-n7S2unukca/scene.splinecode' />
 			</div>
-			<div className='h-screen'></div>
+			<div className='h-screen'>{/* CARDS */}</div>
 		</div>
 	);
 };
